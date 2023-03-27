@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "246TQRHP2H.cutanddry.hillcrest.mobile.ios",
+        "paths": [
+          "*",
+          "/"
+        ]
+      }
+    ]
+  }
+}
