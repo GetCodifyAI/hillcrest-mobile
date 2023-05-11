@@ -20,7 +20,6 @@
 		"cordova-plugin-inappbrowser": "^5.0.0",
 		"cordova-plugin-network-information": "^2.0.2",
 		"cordova-plugin-screen-orientation": "^3.0.2",
-		"cordova-plugin-splashscreen": "^5.0.3",
 		"es6-promise-plugin": "^4.2.2",
 		"jetifier": "^2.0.0",
 		"prettier": "^2.7.1"
@@ -38,7 +37,8 @@
 		"cordova-plugin-globalization": "^1.11.0",
 		"cordova-plugin-intercom": "^10.1.0",
 		"cordova-plugin-ionic-webview": "^5.0.0",
-		"cordova-plugin-mfp": "^8.0.2022061409"
+		"cordova-plugin-mfp": "^8.0.2022061409",
+		"cordova-plugin-splashscreen": "^6.0.2"
 	},
 	"cordova": {
 		"plugins": {
@@ -49,7 +49,6 @@
 				"ANDROID_PATHPREFIX": "/"
 			},
 			"cordova-plugin-device": {},
-			"cordova-plugin-splashscreen": {},
 			"cordova-plugin-screen-orientation": {},
 			"cordova-plugin-network-information": {},
 			"cordova-plugin-inappbrowser": {},
@@ -79,13 +78,14 @@
 				"ANDROID_GSON_VERSION": "2.8.7",
 				"ANDROID_FIREBASE_PERF_GRADLE_PLUGIN_VERSION": "1.4.0"
 			},
+			"cordova-plugin-splashscreen": {},
 			"cordova-plugin-ionic-webview": {},
 			"cordova-plugin-androidx": {},
 			"cordova-plugin-androidx-adapter": {}
 		},
 		"platforms": [
-			"ios",
-			"android"
+			"android",
+			"ios"
 		]
 	}
 }

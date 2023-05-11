@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- * {
+* {
 	-webkit-tap-highlight-color: rgba(
 		0,
 		0,
@@ -149,7 +149,7 @@ h1 {
 }
 
 .login-btn {
-    display: none;
+	display: none;
 	margin-top: 40px;
 	min-width: 150px;
 }
