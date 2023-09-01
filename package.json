@@ -1,7 +1,7 @@
 {
 	"name": "cutanddry.hillcrest.mobile.ios",
 	"displayName": "MyHF",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Hillcrest Foodservice mobile application.",
 	"main": "index.js",
 	"scripts": {
