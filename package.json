@@ -1,7 +1,7 @@
 {
   "name": "cutanddry.hillcrest.mobile.ios",
   "displayName": "MyHF",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Hillcrest Foodservice mobile application.",
   "main": "index.js",
   "scripts": {
@@ -84,7 +84,8 @@
       "cordova-plugin-androidx-adapter": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }
