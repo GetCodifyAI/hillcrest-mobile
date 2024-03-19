@@ -26,6 +26,9 @@
     <preference name="android-targetSdkVersion" value="33" />
     <preference name="AndroidXEnabled" value="true" />
     <platform name="android">
+        <config-file parent="/*" target="AndroidManifest.xml" mode="merge" > 
+            <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+        </config-file>
         <allow-navigation href="https://hillcrest.cutanddry.com/*" />
         <allow-navigation href="https://staging-hillcrest.cutanddry.com/*" />
         <allow-navigation href="https://secure.safewebservices.com/*" />
@@ -34,9 +37,6 @@
         </edit-config>
         <config-file parent="/*" target="AndroidManifest.xml" mode="merge">
             <uses-feature android:name="android.hardware.camera" android:required="false" />
-        </config-file>
-        <config-file target="AndroidManifest.xml" parent="/manifest/application" > 
-            <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
         </config-file>
     </platform>
     <platform name="ios">
